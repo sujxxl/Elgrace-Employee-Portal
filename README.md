@@ -11,14 +11,6 @@ The ELGRACE Employee Resource Portal provides a single entry point for employees
 - **Odoo CRM** - Customer Relationship Management
 - **Vtiger CRM** - Alternative CRM platform
 
-## 🚀 Features
-
-- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
-- **Modern UI** - Dark theme with gradient effects and smooth animations
-- **Quick Access** - Large, easy-to-click buttons for all company tools
-- **Security** - No-referrer links for enhanced privacy
-- **Fast Loading** - Lightweight and optimized performance
-
 ## 🛠️ Tech Stack
 
 - **React** - UI framework
@@ -127,35 +119,11 @@ Renders individual tool cards with:
 - Optional description
 - Click-to-navigate functionality
 
-## 🔒 Security Features
-
-- **No-Referrer Links** - Prevents referrer information leakage
-- **External Links Security** - Uses `noreferrer noopener` attributes
-- **Content Security** - Follows Microsoft content policies
-
-## 🎨 Design Features
-
-- **Animated Background** - Floating blob animations
-- **Gradient Effects** - Modern gradient text and backgrounds
-- **Hover States** - Interactive hover effects on buttons
-- **Responsive Grid** - Adapts to different screen sizes
-
-## 📱 Browser Support
-
-- Chrome/Edge (latest)
-- Firefox (latest)
-- Safari (latest)
-
 ## 👤 Usage Notes
 
 - **Authorized Personnel Only** - This portal is for ELGRACE TALENTS employees only
 - **Tool Access** - Some tools may require authentication
-- **Support** - Contact IT support for access issues
 
 ## 📝 License
 
 © 2025 ELGRACE TALENTS. All rights reserved.
-
-## 📞 Support
-
-For issues or questions regarding the Employee Resource Portal, please contact the IT department.
