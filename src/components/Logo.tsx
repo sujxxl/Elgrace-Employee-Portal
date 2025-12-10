@@ -4,7 +4,7 @@ export const Logo: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center mb-16">
       <div className="mb-4">
-        <img height={64}
+        <img 
           src="/logos/elgrace-logo.png" 
           alt="ELGRACE TALENTS"
           className="w-20 h-20 object-contain"
