@@ -1,0 +1,5 @@
+{
+  "name": "Corporate Portal Hub",
+  "description": "A centralized landing page for accessing company tools, ERP, CRM, and the main website.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,161 @@
+# ELGRACE TALENTS - Employee Resource Portal
+
+A centralized landing page for ELGRACE TALENTS employees to access company tools, ERP systems, CRM platforms, and the main website.
+
+## 📋 Overview
+
+The ELGRACE Employee Resource Portal provides a single entry point for employees to quickly access:
+
+- **Main Website** - Company website (https://www.elgrace.in/)
+- **ERPNext** - Enterprise Resource Planning system
+- **Odoo CRM** - Customer Relationship Management
+- **Vtiger CRM** - Alternative CRM platform
+
+## 🚀 Features
+
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- **Modern UI** - Dark theme with gradient effects and smooth animations
+- **Quick Access** - Large, easy-to-click buttons for all company tools
+- **Security** - No-referrer links for enhanced privacy
+- **Fast Loading** - Lightweight and optimized performance
+
+## 🛠️ Tech Stack
+
+- **React** - UI framework
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Fast build tool and dev server
+
+## 📁 Project Structure
+
+```
+corporate-portal-hub/
+├── components/
+│   ├── Logo.tsx              # Header logo component
+│   ├── ToolCard.tsx          # Tool card component
+│   └── BrandIcons.tsx        # Brand icon components
+├── App.tsx                   # Main application component
+├── constants.ts              # Tool links configuration
+├── types.ts                  # TypeScript interfaces
+├── index.html                # HTML entry point
+├── index.tsx                 # React entry point
+└── README.md                 # This file
+```
+
+## 🔧 Configuration
+
+### Adding New Tools
+
+Edit `constants.ts` to add new tools:
+
+```typescript
+{
+  id: 'tool-id',
+  name: 'Tool Name',
+  url: 'https://tool-url.com/',
+  icon: '/logos/tool-logo.png',
+  variant: 'primary' | 'secondary' | 'accent' | 'neutral' | 'orange' | 'indigo',
+  target?: '_blank',
+  rel?: 'noreferrer noopener'
+}
+```
+
+### Customizing Colors
+
+Edit `index.html` Tailwind config to modify brand colors:
+
+```javascript
+colors: {
+  brand: {
+    50: '#f0f9ff',
+    100: '#e0f2fe',
+    500: '#0ea5e9',
+    600: '#0284c7',
+    900: '#0c4a6e',
+  }
+}
+```
+
+## 📸 Logo Files
+
+Place the following PNG/JPG files in `/public/logos/`:
+
+- `elgrace-logo.png` - Main header logo
+- `globe.png` - Main website icon
+- `erpnext.png` - ERPNext icon
+- `odoo.png` - Odoo CRM icon
+- `vtiger.jpg` - Vtiger CRM icon
+
+## 🚀 Getting Started
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+### Preview
+
+```bash
+npm run preview
+```
+
+## 📊 Component Details
+
+### Logo Component
+
+Displays the ELGRACE TALENTS header with animated branding.
+
+### ToolCard Component
+
+Renders individual tool cards with:
+
+- Logo image
+- Tool name
+- Optional description
+- Click-to-navigate functionality
+
+## 🔒 Security Features
+
+- **No-Referrer Links** - Prevents referrer information leakage
+- **External Links Security** - Uses `noreferrer noopener` attributes
+- **Content Security** - Follows Microsoft content policies
+
+## 🎨 Design Features
+
+- **Animated Background** - Floating blob animations
+- **Gradient Effects** - Modern gradient text and backgrounds
+- **Hover States** - Interactive hover effects on buttons
+- **Responsive Grid** - Adapts to different screen sizes
+
+## 📱 Browser Support
+
+- Chrome/Edge (latest)
+- Firefox (latest)
+- Safari (latest)
+
+## 👤 Usage Notes
+
+- **Authorized Personnel Only** - This portal is for ELGRACE TALENTS employees only
+- **Tool Access** - Some tools may require authentication
+- **Support** - Contact IT support for access issues
+
+## 📝 License
+
+© 2025 ELGRACE TALENTS. All rights reserved.
+
+## 📞 Support
+
+For issues or questions regarding the Employee Resource Portal, please contact the IT department.
